@@ -13,4 +13,17 @@
  *= require devise_bootstrap_views
  *= require_tree .
  *= require_self
+ *= require font-awesome
  */
+
+.results-block {
+  display: inline-block;
+}
+
+.results-block strong {
+  padding-left: 10px;
+}
+
+.no-padding {
+  padding: none;
+}
